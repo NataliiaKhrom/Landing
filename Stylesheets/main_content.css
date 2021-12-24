@@ -202,17 +202,88 @@ padding-top: 2%;}
 
   .plus p {
     padding-top: 14%;
-font-size: 1.3em;
-    line-height: 1;}
+    font-size: 1.3em;}
 
   /* _________ТЕМНЫЙ БЛОК______________ */
 
     .dark {
+      opacity: .5;
       position: relative;
       display: block;
-      z-index: 3;
+      z-index: -1;
+      width: 100%;
+      background-color: #222028;
+      padding-bottom: 10%;}
+
+    .digits {
+      position: relative;
+      display: block;
       width: 90%;
       left: 50%;
       margin-right: -50%;
-      transform: translate(-50%);
-      padding-bottom: 10%;}
+      transform: translate(-50%);}
+
+  .digits p, .digits h1 {
+    color: white;
+    padding-top: 8%;
+    padding-left: 6%;
+    font-size: 1.3em;}
+
+.dig {
+  padding-left: 7%;
+}
+
+.d-block-2 , .d-block-1 , .d-block-3 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 4%;
+}
+
+.d-block-2 h1 , .d-block-1 h1 , .d-block-3 h1 {
+  font-size: 11em;}
+
+  .d-block-2 p , .d-block-1 p , .d-block-3 p {
+    font-size: 2em;
+    width: 20%;}
+
+
+    /* ________ФУНКЦИИ______________ */
+
+  .functions , .big-text h1 {
+position: relative;
+display: block;
+padding-top: 7%;
+z-index: 3;
+width: 90%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%);
+  }
+
+  .big-text h1 {
+    color: white;
+    width: 70%;
+    font-size: 5.6em;
+    text-align: center;}
+
+    .functions p {
+        color: white;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 22%;
+        font-size: 1.5em;}
+
+.func-1 p {
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-right: 3%;}
+
+.func-2 p {
+  padding-top: 10%;
+padding-left: 22%;
+  padding-right: 0;}
+
+.func-2 p:nth-child(even) {
+    padding-left: 18%;}
