@@ -1,249 +1,74 @@
+a {
+font-family: SuisseIntlRegular;
+text-decoration: none;}
+
+p {
+font-family: SuisseIntlRegular;
+text-decoration: none;
+font-size: 1.36em;
+color: black;
+line-height: 1;}
+
+h1 {
+font-family: SuisseIntlSemiBold;
+text-decoration: none;
+font-size: 3.6em;
+color: black;
+line-height: 1.1;}
+
+h2 {
+font-family: SuisseIntlRegular;
+text-decoration: none;
+color: black;}
+
+h3 {
+font-family: SuisseIntlSemiBold;
+text-decoration: none;
+color: black;}
+
+
 /* ___________ МЕНЮ______________ */
-.menu-2 {
+.menu {
   position: relative;
   display: block;
-  width: 100%;
-  height: 7%;
-  /*  background-color: red;
-    opacity: .3; */
-}
-
-
-.menu-big {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.left-part {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  height: 100%;
-  padding-left: 3%;
-  text-align: left;
-  left: 0;
-}
-
-.right-part {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  height: 100%;
-  padding-right: 3%;
-  float: right;
-  text-align: right;
-  right: 0;
-}
-
-.menu-big a , .menu-big p {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 7%;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.menu-2 a {
-    text-decoration: none;
-/*  font-family: BlenderProBold, sans-serif; */
-  font-family: HeliosThin;
-  font-size: 1.3em;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-}
-
-.menu-2 p {
-    text-decoration: none;
-/*  font-family: BlenderProBold, sans-serif; */
-  font-family: HeliosThin;
-  font-size: 1.3em;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-}
-
-.nav-links {
-  display: none;
-/*   display: flex;*/
-  justify-content: space-around;
+  z-index: 15;
   width: 90%;
-  text-decoration: none;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.burger {
-position: absolute;
-height: 30%;
-width: 20%;
-top: 25%;
-left: 13%;
-}
-
-.line-1  , .line-2 , .line-3 {
-  position: relative;
-  width: 30%;
-  height: 10%;
-  background-color: red;
-  margin-top: 5%;
-}
-
-.burger {
-  display: none;
-}
-
-
-/* ___________ футор______________ */
-.futor {
-  position: relative;
-  display: block;
-  vertical-align: bottom;
-  background-color: black;
-  height: 50%;
-}
-
-.futor-line {
-  height: .1vh;
-position: relative;
-display: block;
-  width: 90%;
-  margin-top: 3%;
+  height: 16%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
   background-color: white;
-}
+  opacity: .8;}
 
-.futor_2 {
-  position: relative;
-  display: block;
-  height: 100%;
-  width: 90%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
-}
-
-.futor_logo , .futor_info , .sections , .sections_2 {
+.menu p , .menu img , .logo-h , .register , .menu-1 {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 20%;
-  height: 70%;
-  padding: 9% 2% 2% 2%;
-}
+  height: 100%;
+  padding-top: 6%;}
 
-.futor_info {
-  padding: 9% 1% 2% 0;
-}
+  .menu-1 {
+      width: 40%;
+      padding-left: 6%;}
 
-.sections , .sections_2 {
-  text-align: left;
-}
+.logo-h {
+  padding-left: 1%;
+  padding-right: 1%;}
 
-.futor_logo img {
-  display: block;
-  width: 90%;
-}
+.menu p {
+  padding-right: 4%;}
 
-.futor_logo {
-  width: 13%;
-padding: 6% 2% 0% 8%;
-}
+.register {
+  width: 44%;
+  text-align: right;}
 
-.futor h2 {
-  border-bottom: .1vh solid white;
-}
+.register p {
+padding-right: 15%;}
 
-.futor h2 {
-  font-family: HeliosCond-bold;
-  font-size: 1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-  padding-bottom: 5%;
-}
+.menu img {
+  height: 50%;}
 
-.futor h1 {
-  padding-bottom: 5%;
-}
-
-.futor li {
-  list-style: none; }
-
-.futor ul {
-  margin-top: 5%;
-}
-
-  .futor h1 {
-    margin-top: 5%;
-    font-family: HeliosThin;
-    font-size: .8em;
-    font-weight: 200;
-    color: white;
-    line-height: 1.2;
-    word-wrap: normal;}
-
-.futor {
-  font-family: HeliosThin;
-  font-size: .8em;
-  font-weight: 200;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;}
-
-  .futor a {
-    position: relative;
-    font-family: HeliosThin;
-    font-size: .8em;
-    font-weight: 200;
-    color: white;
-    line-height: 1.2;
-    word-wrap: normal;
-    margin: 15% 0 0 0;}
-
-
-    @media screen and (max-width:480px) {
-
-      .futor {
-        font-size: .6em;}
-
-        .futor li {
-          font-size: .5em;
-        }
-
-      .futor h2 {
-        font-size: .8em;
-      }
-
-      .futor h1 {
-        font-size: .6em;
-      }
-
-        .futor a {
-          font-size: .6em;}
-
-
-
-
-             /* КОНЕЦ */
-         }
+  .menu-1 p {
+      font-size: 1.2em;
+      color: black;
+      line-height: 1.1;}
