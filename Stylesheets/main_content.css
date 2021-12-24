@@ -14,7 +14,7 @@
 
 
       .maket {
-         display: block;
+         display: none;
         position: absolute;
          width: 100%;
          height: 840%;
@@ -78,7 +78,7 @@
         top: 1%;}
 
       .screen-1 img {
-        width: 120%;}
+        width: 110%;}
 
       .button {
         width: 50%;
@@ -207,7 +207,6 @@ padding-top: 2%;}
   /* _________ТЕМНЫЙ БЛОК______________ */
 
     .dark {
-      opacity: .5;
       position: relative;
       display: block;
       z-index: -1;
@@ -287,3 +286,133 @@ padding-left: 22%;
 
 .func-2 p:nth-child(even) {
     padding-left: 18%;}
+
+        .functions img {
+          position: absolute;}
+
+        .thing_1 {
+        top: 48%;
+        left: 8%;
+      width: 20%;}
+
+        .thing_2 {
+          top: 53%;
+          left: 38%;
+          width: 26%;}
+
+        .thing_3 {
+          top: 67%;
+        left: 19%;
+          width: 20%;}
+
+          .thing_4 {
+            top: 69%;
+            left: 59%;
+              width: 19%;}
+
+            .thing_5 {
+              top: 51%;
+              left: 72%;
+              width: 20%;}
+
+/* _________________ФУНКЦИИ______________ */
+
+.rreview {
+  position: relative;
+  display: block;
+  z-index: 3;
+  width: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+.rreview h1 {
+    width: 70%;
+    font-size: 3.4em;
+    padding-top: 9%;
+    padding-left: 7%;}
+
+  .photo {
+     position: relative;
+      display: inline-block;
+      vertical-align: top;
+      width: 35%;
+      top: 1%;}
+
+    .photo img {
+      position: relative;
+      display: block;
+      vertical-align: top;
+      width: 90%;}
+
+.rewtext {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;}
+
+.rewtext h1 {
+width: 70%;
+font-size: 2.2em;}
+
+.rewtext h1:first-child {
+  padding-top: 18%;
+  padding-left: 1%;}
+
+  .rewtext h1:nth-child(3) {
+    padding-top: 38%;
+    padding-left: 1%;}
+
+    .rewtext h1:nth-child(5) {
+      padding-top: 40%;
+      padding-left: 1%;}
+
+  .rewtext p {
+    width: 90%;
+    font-size: 1.3em;
+    padding-top: 5%;}
+
+    /* _________________ФУТОР______________ */
+
+    .futor {
+      position: relative;
+      display: block;
+      z-index: 3;
+      padding-top: 14%;
+      width: 90%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%);}
+
+    .line {
+      height: 0.1vh;
+      background-color: black;}
+
+    .lets-half , .half {
+      position: relative;
+       display: inline-block;
+       vertical-align: top;
+      width: 47%;
+       top: 1%;}
+
+      .lets-half h2 {
+        width: 100%;
+      font-size: 2em;
+      padding-top: 2%;
+      padding-left: 18%;}
+
+    .half .button {
+      margin-left: 45%;
+      margin-top: 4%; }
+
+  .men {
+    margin-left: 48%;}
+
+    .men p {
+      position: relative;
+       display: inline-block;
+       vertical-align: top;
+      font-size: 1em;
+      padding-top: 4%;
+      padding-left: 5%;
+    }
