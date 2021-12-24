@@ -9,7 +9,7 @@
             min-height: 100%;
           background: white;
          overflow-y: scroll;
-      /*  overflow-x: hidden; */}
+         overflow-x: hidden;}
 
 
 
@@ -81,7 +81,7 @@
         width: 110%;}
 
       .button {
-        width: 50%;
+        width: 56%;
         height: 7%;
         margin-left: 19%;
         margin-top: 7%;
@@ -167,6 +167,7 @@ padding-top: 2%;}
     display: block;
     padding-top: 12%;
     padding-bottom: 5%;
+    width: 80%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);}
@@ -393,10 +394,11 @@ font-size: 2.2em;}
        display: inline-block;
        vertical-align: top;
       width: 47%;
-       top: 1%;}
+       top: 1%;
+       padding-bottom: 15%;}
 
       .lets-half h2 {
-        width: 100%;
+        width: 80%;
       font-size: 2em;
       padding-top: 2%;
       padding-left: 18%;}
