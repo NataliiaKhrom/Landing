@@ -1,5 +1,22 @@
 @media screen and (max-width:768px) {
 
+.burger {display: inline-block;}
+
+.burger {
+  position: relative;
+      display: inline-block;
+      vertical-align: top;
+      height: 100%;
+      width: 10%;
+      padding-left: 60%;}
+
+.line-1, .line-2, .line-3 {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    margin-top: 5%;}
+
 .menu-1 , .register {
   display: none;}
 
