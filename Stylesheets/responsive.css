@@ -60,7 +60,7 @@
     transform: translate(0);}
 
 .question h3 {
-  text-align: : left;
+  text-align: left;
   line-height: 1;
     font-size: 1.2em;}
 
@@ -69,13 +69,17 @@ list-style: none;
 padding: 0 5%;
 margin: 0;
 display: grid;
-row-gap: 3%;
+row-gap: 6%;
 column-gap: 2%;
 grid-template-columns: 1fr;
 top: 10%;}
 
+.plus p {
+    padding-top: 7%;
+    font-size: 1.1em;}
+
 .Premium {
-      padding-bottom: 50%;}
+      padding-bottom: 80%;}
 
       .digits {
           position: relative;
