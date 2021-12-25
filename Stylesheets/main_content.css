@@ -160,7 +160,7 @@ padding-top: 2%;}
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
-  padding-bottom: 10%;}
+  padding-bottom: 16%;}
 
   .question {
     position: relative;
@@ -184,10 +184,11 @@ padding-top: 2%;}
   padding: 2% 6%;
   margin: 0;
   display: grid;
-  row-gap: 13%;
+  row-gap: 17%;
   column-gap: 5.3%;
-  grid-template-columns: .1fr 1fr 1fr;
-  grid-template-rows: repeat(2,minmax(16vw,auto));
+/*   grid-template-columns: 1fr 1fr 1fr; */
+grid-template-columns: 30% 30% 30%;;
+/*  grid-template-rows: repeat(2,minmax(16vw,auto)); */
   top: 10%;}
 
 *, :after, :before {
@@ -202,7 +203,7 @@ padding-top: 2%;}
   line-height: 1;}
 
   .plus p {
-    padding-top: 14%;
+    padding-top: 10%;
     font-size: 1.3em;}
 
   /* _________ТЕМНЫЙ БЛОК______________ */
