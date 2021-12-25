@@ -277,11 +277,13 @@ transform: translate(-50%);
         font-size: 1.5em;}
 
 .func-1 p {
+  z-index: 4;
     padding-top: 12%;
     padding-left: 8%;
     padding-right: 3%;}
 
 .func-2 p {
+  z-index: 4;
   padding-top: 10%;
 padding-left: 22%;
   padding-right: 0;}
