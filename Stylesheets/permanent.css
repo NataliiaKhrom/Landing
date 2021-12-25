@@ -73,21 +73,6 @@ padding-right: 15%;}
       color: black;
       line-height: 1.1;}
 
-  .burger {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  height: 30%;
-  width: 20%;
-  top: 25%;
-  left: 13%;}
-
-  .line-1  , .line-2 , .line-3 {
-    position: relative;
-    width: 30%;
-    height: 10%;
-    background-color: black;
-    margin-top: 5%;}
 
     .burger {
       display: none;}
