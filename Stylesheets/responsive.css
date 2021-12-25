@@ -1,0 +1,157 @@
+@media screen and (max-width:768px) {
+
+.menu-1 , .register {
+  display: none;}
+
+.graphics , .text_1scr {
+  display: block;}
+
+  .graphics {
+    width: 90%;}
+
+.menu {
+  height: 8%;}
+
+  .logo-h {
+      padding-top: 5%;}
+
+    .menu img {
+        height: 80%;}
+
+.text_1scr {
+  width: 90%;}
+
+.screen-1 h1, .screen-1 p, .screen-1 h2, .about h1, .about p, .about h2 {
+      position: relative;
+      display: block;
+      width: 70%;
+      padding-left: 2%;}
+
+  .screen-1 h1 {
+    padding-top: 10%;
+      font-size: 3.2em;}
+      .screen-1 h2 {
+        font-size: 1.5em;}
+        .screen-1 p {
+          font-size: 1em;}
+            .button p {
+              font-size: 1em;}
+              .graphics h1 {
+                font-size: 2em;}
+                .about p {
+                  font-size: 1em;
+                  padding-top: 10%;}
+
+          .button {
+              margin-left: 24%;
+              margin-top: 15%;}
+
+              .why {
+              padding-top: 0;}
+
+.question {
+    padding-bottom: 12%;
+    padding-left: 5%;
+    width: 80%;
+    left: 0;
+    margin-right: 0;
+    transform: translate(0);}
+
+.question h3 {
+  text-align: : left;
+  line-height: 1;
+    font-size: 1.2em;}
+
+.plus {
+list-style: none;
+padding: 0 5%;
+margin: 0;
+display: grid;
+row-gap: 3%;
+column-gap: 2%;
+grid-template-columns: 1fr;
+top: 10%;}
+
+.Premium {
+      padding-bottom: 50%;}
+
+      .digits {
+          position: relative;
+          display: none;}
+
+          .big_pic {
+            position: relative;
+            display: none;}
+
+            .big-text h1 {
+            color: white;
+              width: 80%;
+                font-size: 2em;}
+
+                .functions p {
+                    position: relative;
+                    display: block;
+                    font-size: 1em;
+                  width: 47%;}
+
+                  .func-1 p:nth-child(4) {
+                    padding-left: 50%;}
+
+                    .func-2 p:nth-child(1) {
+                      padding-left: 50%;}
+
+                      .func-2 p:nth-child(2) {
+                        padding-left: 8%;}
+
+                        .func-2 p , .func-1 p {
+                          padding-top: 24%;}
+  .thing_1 {
+    top: 26%;
+    left: 48%;
+    width: 45%;}
+
+      .thing_2 {
+          top: 45%;
+          left: 0%;
+          width: 58%;
+          transform: rotate(15deg);}
+
+        .thing_5 {
+          top: 56%;
+          left: 45%;
+            width: 53%;
+          transform: rotate(15deg);}
+
+            .thing_4 {
+              top: 70%;
+              left: 6%;
+                width: 54%;}
+
+                  .thing_3 {
+                    display: none;}
+
+
+
+.photo {
+      width: 40%;}
+
+.rewtext {
+      width: 55%;}
+
+      .rewtext h1 {
+          font-size: 1.2em;}
+        .rewtext p {
+          font-size: .8em;}
+
+      .photo img {
+          padding-top: 60%;}
+
+      .photo img:first-child {
+        padding-top: 20%;}
+
+          .lets-half, .half {
+              display: block;}
+
+
+
+        }
